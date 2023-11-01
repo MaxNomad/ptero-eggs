@@ -1,4 +1,4 @@
-FROM jwigley/alpine-node-git-yarn
+FROM node:18-alpine
 
 RUN apk --update --no-cache add curl ca-certificates nginx
 
