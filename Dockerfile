@@ -1,11 +1,10 @@
-FROM alpine:latest
+FROM alpine:3.8
 
 RUN apk --update --no-cache add curl ca-certificates nginx
 
 RUN echo "UTC" > /etc/timezone
 
 RUN apk add --update --no-cache bash \
-	curl-dev \
 	php5-intl \
 	php5-openssl \
 	php5-dba \
@@ -68,8 +67,7 @@ RUN apk add --update --no-cache bash \
 	php5-sysvsem \ 
 	php5-pdo \
 	php5-bz2 \
-	php5-mysqli \
-	libxml2-dev
+	php5-mysqli 
 
 RUN apk add --update --no-cache imagemagick-dev \
 	ffmpeg
