@@ -6,8 +6,6 @@ RUN echo "UTC" > /etc/timezone
 
 # Installing PHP
 RUN apk add --update --no-cache bash \
-	curl \
-	curl-dev \
 	php5-intl \
 	php5-openssl \
 	php5-dba \
