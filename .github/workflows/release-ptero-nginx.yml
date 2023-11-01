@@ -28,4 +28,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/maxnomad/nginx-ptero:5.6
+            ghcr.io/MaxNomad/nginx-ptero:5.6
