@@ -29,6 +29,7 @@ RUN apk add --no-cache php82 \
     php82-pdo_mysql \
     php82-pdo_sqlite \
     php82-pecl-redis \
+	php82-redis \
 	php82-exif \
 	php82-session \
 	php82-soap \
